@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /** @author Flecha */
 
-public class DistanciaEntreDosPuntos {
+public class DistanciaEntreTresPuntos {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -21,11 +21,18 @@ public class DistanciaEntreDosPuntos {
         System.out.print("Introduzca el valor de y2: ");
         double y2 = sc.nextDouble();
         
+        System.out.print("Introduzca el valor de y2: ");
+        double z1 = sc.nextDouble();
+
+        System.out.print("Introduzca el valor de y2: ");
+        double z2 = sc.nextDouble();
+
         sc.close();
 
-        double distancia = Math.sqrt((Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2)));
+        double distanciaXY = Math.sqrt((Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2)));
+        double distanciaXZ = Math.sqrt((Math.pow((x2 - x1), 2) + Math.pow((z2 - z1), 2)));
 
-        System.out.print("La distancia entre los dos puntos es: " + distancia);
+        System.out.println(distanciaXY > distanciaXZ ? "Z está más cerca de X" : "Y está más cerca de X");
 
     }
 }
