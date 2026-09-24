@@ -2,10 +2,12 @@ package ud1;
 
 import javax.swing.JOptionPane;
 
+/** @author Flecha */
+
 public class EjemploJOptionPane {
     public static void main(String[] args) {
         System.out.println(JOptionPane.showConfirmDialog(null, "Estás de acuerdo?"));
-        
+
         String nombre = "";
         nombre = JOptionPane.showInputDialog("Escribe tu nombre");
         String msg = "Hola" + nombre + "!";
