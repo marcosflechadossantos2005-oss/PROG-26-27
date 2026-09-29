@@ -13,8 +13,8 @@ public class SumaDigitos {
         sc.close();
 
         int dig1 = usrNum % 10;
-        int dig2 = (usrNum % 100 - dig1) / 10;
-        int dig3 = (usrNum % 1000 - dig2 - dig1) / 100;
+        int dig2 = usrNum / 10 % 10;
+        int dig3 = usrNum / 100;
 
         int suma = dig1 + dig2 + dig3;
 

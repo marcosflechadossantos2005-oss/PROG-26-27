@@ -8,13 +8,13 @@ public class FarenheitACelsius {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Introduce temperatura en grados Celsius: ");
+        System.out.print("Introduce temperatura en grados Farenheit: ");
         double farenheit = sc.nextDouble();
 
         sc.close();
 
-        double celsius = (5 / 9) * (farenheit - 32);
+        double celsius = (5.0 / 9) * (farenheit - 32);
 
-        System.out.println(farenheit + " Farenheit son " + celsius + "Celsius.");
+        System.out.println(farenheit + " Farenheit son " + String.format("%.1f", celsius) + " Celsius.");
     }
 }
