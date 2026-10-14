@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /** @author Flecha */
 
-public class Numero {
+public class NumeroSecreto {
     public static void main(String[] args) {
 
         //créditos del programa

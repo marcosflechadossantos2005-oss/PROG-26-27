@@ -3,7 +3,7 @@ package ud2.ejercicios;
 import java.util.Scanner;
 
 /** @author Flecha */
-public class E0204_CasiCero {
+public class CasiCero {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
