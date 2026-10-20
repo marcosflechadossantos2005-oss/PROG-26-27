@@ -85,7 +85,7 @@ public class NumeroSecreto {
             System.out.print("Quieres continuar jugando s/n: ");
             seguir = sc.next();
             System.out.println("");
-
+            
             //algoritmo de comprobación de la respuesta anterior
             if (seguir.equals("s")) {
                 continuarPartida = true;
