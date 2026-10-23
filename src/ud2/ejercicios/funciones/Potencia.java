@@ -4,23 +4,22 @@ package ud2.ejercicios.funciones;
 public class Potencia {
     static double calculoPotenciaIterativo(double a, int n) {
         double resultado = 0;
-        if (a < 0) {
-            resultado = 0;
-        } else {
-            resultado = Math.pow(a, n);
+        for (int i = 0; i < n; i++) {
+            resultado *= a;
         }
         return resultado;
     }
 
     static double calculoPotenciaRecusivo(double a, int n) {
-        double resultado = 0;
-        while (n >= 0) {
-            resultado = Math.pow(a, n);
+        if (n == 0) {
+            return 1;
+        } else {
+            return a * calculoPotenciaRecusivo(a, --n);
         }
-        return resultado;
     }
 
     public static void main(String[] args) {
-
+        System.out.println(calculoPotenciaIterativo(2, 3));
+        System.out.println(calculoPotenciaRecusivo(2, 3));
     }
 }

@@ -1,0 +1,483 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraBasica",
+            "request": "launch",
+            "mainClass": "Pruebas.CalculadoraBasica",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Chicles",
+            "request": "launch",
+            "mainClass": "Pruebas.Chicles",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Colores",
+            "request": "launch",
+            "mainClass": "Pruebas.Colores",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "NumeroSecreto",
+            "request": "launch",
+            "mainClass": "Pruebas.NumeroSecreto",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Supermercado",
+            "request": "launch",
+            "mainClass": "Pruebas.Supermercado",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Viajes",
+            "request": "launch",
+            "mainClass": "Pruebas.Viajes",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "CalculoAreaTerreno",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.CalculoAreaTerreno",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "CelsiusAFarenheit",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.CelsiusAFarenheit",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Circulo",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.Circulo",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "ConvertirExpresiones",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.ConvertirExpresiones",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "DistanciaEntreDosPuntos",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.DistanciaEntreDosPuntos",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "DistanciaEntreTresPuntos",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.DistanciaEntreTresPuntos",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "EcuacionGrado2",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.EcuacionGrado2",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "EjemploCompra",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.EjemploCompra",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "EjemploCompra2",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.EjemploCompra2",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "EjemploCompra3",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.EjemploCompra3",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "EjemploJOptionPane",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.EjemploJOptionPane",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "EjemplosAleatorios",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.EjemplosAleatorios",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Entradas",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.Entradas",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "EntradasConIf",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.EntradasConIf",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "EvaluarExpresiones1",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.EvaluarExpresiones1",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "EvaluarExpresiones2",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.EvaluarExpresiones2",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "FarenheitACelsius",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.FarenheitACelsius",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "HorasASegundos",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.HorasASegundos",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "IVA",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.IVA",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Media",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.Media",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "MultiploDe7",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.MultiploDe7",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "MultiploDeN",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.MultiploDeN",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "NumeroMayor",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.NumeroMayor",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Par",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.Par",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "SegundosAHoras",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.SegundosAHoras",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "SumaDigitos",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.SumaDigitos",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Triangulo",
+            "request": "launch",
+            "mainClass": "ud1.ejercicios.Triangulo",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Esfera",
+            "request": "launch",
+            "mainClass": "ud1.examen.mflecdos.Esfera",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "NotaUD",
+            "request": "launch",
+            "mainClass": "ud1.examen.mflecdos.NotaUD",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "SalarioSemanal",
+            "request": "launch",
+            "mainClass": "ud1.examen.mflecdos.SalarioSemanal",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "TipoTriangulo",
+            "request": "launch",
+            "mainClass": "ud1.examen.mflecdos.TipoTriangulo",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Bisiesto",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.Bisiesto",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "CasiCero",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.CasiCero",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "E0201",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.E0201",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "E0202",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.E0202",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "E0203",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.E0203",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "E0205",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.E0205",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "EdadMaximaMinima",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.EdadMaximaMinima",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "EdadMedia",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.EdadMedia",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "EntradasConcierto",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.EntradasConcierto",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "EstadisticaEdad",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.EstadisticaEdad",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Factura",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.Factura",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "FechaCorrecta",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.FechaCorrecta",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "MultiplosDe7",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.MultiplosDe7",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Numeros",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.Numeros",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Ordenar3Numeros",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.Ordenar3Numeros",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "TrinaguloAsteriscos",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.TrinaguloAsteriscos",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "UnDiaMas",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.UnDiaMas",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "UnSegundoMas",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.bucles.UnSegundoMas",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Capicua",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.funciones.Capicua",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "ComprobarHora",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.funciones.ComprobarHora",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Digitos",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.funciones.Digitos",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Eco",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.funciones.Eco",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "EnquisaCursoEspecializacion",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.funciones.EnquisaCursoEspecializacion",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "EsVocal",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.funciones.EsVocal",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Fibbonacci",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.funciones.Fibbonacci",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "IMC",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.funciones.IMC",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Maximo",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.funciones.Maximo",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Potencia",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.funciones.Potencia",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
+            "name": "Rango",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.funciones.Rango",
+            "projectName": "PROG-26-27_a9760f51"
+        }
+    ]
+}
