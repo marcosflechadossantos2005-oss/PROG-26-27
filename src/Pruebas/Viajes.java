@@ -23,36 +23,40 @@ public class Viajes {
         System.out.println("3.- Cancelar.\n");
     }
 
-    static String fechaViajePublicar(Scanner sc) {
-        System.out.print("Fecha (dd/mm/aa): ");
-        String fechaViajePublicar = sc.next();
-        return fechaViajePublicar;
-    }
-    static String horaViajePublicar(Scanner sc) {
-        System.out.print("Hora (00:00): ");
-        String horaViajePublicar = sc.next();
-        return horaViajePublicar;
-    }
-    static String origenViajePublicar(Scanner sc) {
-        System.out.print("Origen: ");
-        String origenViajePublicar = sc.next();
-        return origenViajePublicar;
-    }
-    static String destinoViajePublicar(Scanner sc) {
-        System.out.print("Destino: ");
-        String destinoViajePublicar = sc.next();
-        return destinoViajePublicar;
-    }
-    static int maxPasajeros(Scanner sc) {
-        System.out.print("Cantidad Máxima Pasajeros: ");
-        int maxPasajeros = sc.nextInt();
-        return maxPasajeros;
-    }
-
     static void crearViaje(Scanner sc) {
 
         System.out.println("\nCREAR VIAJE");
         System.out.println("==================\n");
+    }
+
+    static String fechaViajePublicar(Scanner sc, String fechaViajePublicar) {
+        System.out.print("Fecha (dd/mm/aa): ");
+        fechaViajePublicar = sc.next();
+        return fechaViajePublicar;
+    }
+
+    static String horaViajePublicar(Scanner sc, String horaViajePublicar) {
+        System.out.print("Hora (00:00): ");
+        horaViajePublicar = sc.next();
+        return horaViajePublicar;
+    }
+
+    static String origenViajePublicar(Scanner sc, String origenViajePublicar) {
+        System.out.print("Origen: ");
+        origenViajePublicar = sc.next();
+        return origenViajePublicar;
+    }
+
+    static String destinoViajePublicar(Scanner sc, String destinoViajePublicar) {
+        System.out.print("Destino: ");
+        destinoViajePublicar = sc.next();
+        return destinoViajePublicar;
+    }
+
+    static int maxPasajeros(Scanner sc, int maxPasajeros) {
+        System.out.print("Cantidad Máxima Pasajeros: ");
+        maxPasajeros = sc.nextInt();
+        return maxPasajeros;
     }
 
     static void confirmarPublicacion(Scanner sc, String confirmarViaje) {
@@ -68,19 +72,33 @@ public class Viajes {
         }
     }
 
-    static void buscarViajesDisponibles(Scanner sc, String fechaViajeSolicitar, String origenViajeSolicitar,
-            String destinoViajeSolicitar, int pasajeros) {
-
+    static void buscarViajesDisponibles() {
         System.out.println("\nSOLICITAR VIAJE");
         System.out.println("==================\n");
+    }
+
+    static String fechaViajeSolicitar(Scanner sc) {
         System.out.print("Fecha (dd/mm/aa):");
-        fechaViajeSolicitar = sc.next();
+        String fechaViajeSolicitar = sc.next();
+        return fechaViajeSolicitar;
+    }
+
+    static String origenViajeSolicitar(Scanner sc) {
         System.out.print("Origen: ");
-        origenViajeSolicitar = sc.next();
+        String origenViajeSolicitar = sc.next();
+        return origenViajeSolicitar;
+    }
+
+    static String destinoViajeSolicitar(Scanner sc) {
         System.out.print("Destino: ");
-        destinoViajeSolicitar = sc.next();
+        String destinoViajeSolicitar = sc.next();
+        return destinoViajeSolicitar;
+    }
+
+    static int pasajeros(Scanner sc) {
         System.out.print("Pasajeros: ");
-        pasajeros = sc.nextInt();
+        int pasajeros = sc.nextInt();
+        return pasajeros;
     }
 
     public static void viajesDisponibles(String fechaViajePublicar, String horaViajePublicar,
@@ -100,6 +118,8 @@ public class Viajes {
         apuntarse.toLowerCase();
         if (apuntarse.equals("s")) {
             System.out.print("Viaje reservado con éxito!\n");
+        } else {
+            System.out.println("Reserva cancelada.");
         }
     }
 
@@ -143,22 +163,27 @@ public class Viajes {
             switch (opcion) {
                 case 1:
                     crearViaje(sc);
-                    fechaViajePublicar(sc);
-                    horaViajePublicar(sc);
-                    origenViajePublicar(sc);
-                    destinoViajePublicar(sc);
-                    maxPasajeros(sc);
+                    fechaViajePublicar(sc, fechaViajePublicar);
+                    horaViajePublicar(sc, horaViajePublicar);
+                    origenViajePublicar(sc, origenViajePublicar);
+                    destinoViajePublicar(sc, destinoViajePublicar);
+                    maxPasajeros(sc, maxPasajeros);
                     confirmarPublicacion(sc, confirmarViaje);
                     break;
                 case 2:
-                    buscarViajesDisponibles(sc, fechaViajeSolicitar, origenViajeSolicitar, destinoViajeSolicitar,
-                            pasajeros);
+                    buscarViajesDisponibles();
+                    fechaViajeSolicitar(sc);
+                    origenViajeSolicitar(sc);
+                    destinoViajeSolicitar(sc);
+                    pasajeros(sc);
                     if (fechaViajePublicar.equals(fechaViajeSolicitar)
                             && destinoViajePublicar.equals(destinoViajeSolicitar)
+                            && origenViajePublicar.equals(origenViajeSolicitar)
                             && maxPasajeros >= pasajeros) {
-                                viajesDisponibles(fechaViajePublicar, horaViajePublicar, origenViajePublicar, destinoViajePublicar, maxPasajeros, sc);
+                        viajesDisponibles(fechaViajePublicar, horaViajePublicar, origenViajePublicar,
+                                destinoViajePublicar, maxPasajeros, sc);
                     } else {
-                        System.out.println("No hay viajes disponibles en esa fecha.");
+                        System.out.println("No hay viajes disponibles.");
                     }
                     break;
                 case 3:
@@ -173,12 +198,12 @@ public class Viajes {
             seguir.toLowerCase();
             if (seguir.equals("s")) {
                 hacerAlgoMas = true;
+                System.out.println("");
+                menu();
+                opcion = sc.nextInt();
             } else {
                 hacerAlgoMas = false;
             }
-            System.out.println("");
-            menu();
-            opcion = sc.nextInt();
         }
         System.out.println("\nGracias por usar nuestra app!");
     }

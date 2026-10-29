@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LeerHastaCorrecto",
+            "request": "launch",
+            "mainClass": "ud2.ejercicios.excepciones.LeerHastaCorrecto",
+            "projectName": "PROG-26-27_a9760f51"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
