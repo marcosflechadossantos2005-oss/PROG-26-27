@@ -105,7 +105,7 @@ public class Viajes {
             String origenViajePublicar,
             String destinoViajePublicar, int maxPasajeros, Scanner sc) {
 
-        System.out.println("Hay viajes en esa fecha: ");
+        System.out.println("\nHay viajes en esa fecha: ");
         System.out.println("===============================================");
         System.out.println("|| - Fecha: " + fechaViajePublicar);
         System.out.println("|| - Hora: " + horaViajePublicar);
@@ -163,19 +163,19 @@ public class Viajes {
             switch (opcion) {
                 case 1:
                     crearViaje(sc);
-                    fechaViajePublicar(sc, fechaViajePublicar);
-                    horaViajePublicar(sc, horaViajePublicar);
-                    origenViajePublicar(sc, origenViajePublicar);
-                    destinoViajePublicar(sc, destinoViajePublicar);
-                    maxPasajeros(sc, maxPasajeros);
+                    fechaViajePublicar = fechaViajePublicar(sc, fechaViajePublicar);
+                    horaViajePublicar = horaViajePublicar(sc, horaViajePublicar);
+                    origenViajePublicar = origenViajePublicar(sc, origenViajePublicar);
+                    destinoViajePublicar = destinoViajePublicar(sc, destinoViajePublicar);
+                    maxPasajeros = maxPasajeros(sc, maxPasajeros);
                     confirmarPublicacion(sc, confirmarViaje);
                     break;
                 case 2:
                     buscarViajesDisponibles();
-                    fechaViajeSolicitar(sc);
-                    origenViajeSolicitar(sc);
-                    destinoViajeSolicitar(sc);
-                    pasajeros(sc);
+                    fechaViajeSolicitar = fechaViajeSolicitar(sc);
+                    origenViajeSolicitar = origenViajeSolicitar(sc);
+                    destinoViajeSolicitar = destinoViajeSolicitar(sc);
+                    pasajeros = pasajeros(sc);
                     if (fechaViajePublicar.equals(fechaViajeSolicitar)
                             && destinoViajePublicar.equals(destinoViajeSolicitar)
                             && origenViajePublicar.equals(origenViajeSolicitar)
